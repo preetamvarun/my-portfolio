@@ -8,10 +8,25 @@
     <title>Preetam Varun</title>
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/flaticon.css"/>
-    <link rel="shortcut icon" href="images/KarunKarthik.jpg" />
+    <link rel="shortcut icon" href="images/KarunKarthik.jpg"/>
     <link rel="stylesheet" href="css/plugins.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <style>
+      .profiles{
+        /* background-color: red; */
+        list-style: none;
+      }
+      .profile-lists{
+        /* background-color: violet; */
+        text-align: left;
+        padding : .5rem;
+      }
+      .profile-link{
+        display: inline-block;
+        text-decoration: none;
+      }
+    </style>
   </head>
   <body data-spy="scroll" data-target=".navigation_area">
     <div id="preloader">
@@ -69,7 +84,7 @@
                     <li class="nav-item">
                       <a
                         class="nav-link smoot_scroll dots_effect"
-                        href="#services"
+                        href="#work"
                         data-scroll-nav="3"
                         >Portfolio <span class="dot_effect dot_hover"></span
                       ></a>
@@ -77,9 +92,9 @@
                     <li class="nav-item">
                       <a
                         class="nav-link smoot_scroll dots_effect"
-                        href="#work"
+                        href="#certifications"
                         data-scroll-nav="4"
-                        >Certifications<span class="dot_effect dot_hover"></span
+                        >Certifications <span class="dot_effect dot_hover"></span
                       ></a>
                     </li>
                     <li class="nav-item">
@@ -197,31 +212,39 @@
                       <a class="nav-link" data-toggle="tab" href="#education" role="tab">Education</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" data-toggle="tab" href="#experience" role="tab">Experience</a>
+                      <a class="nav-link" data-toggle="tab" href="#experience" role="tab">Other Profiles</a>
                     </li>
                   </ul><!-- Tab panes -->
                   <div class="tab-content">
                     <div class="tab-pane active" id="aboutMe" role="tabpanel">
                       <br/>
                       <p>
-                        I love everything that is related to Web programming (React
-                        - Firebase, Mern Stack) and Python. I'm a motivated developer and
+                        I love everything that is related to Web programming (HTML, CSS, SASS) and Javascript. I'm a motivated developer and
                         designer with experience creating custom websites with
-                        ReactJs, JavaScript, HTML5 & CSS3, and MongoDB.<br/> I'm also good at developing android applications using Kotlin.
+                        ReactJs, JavaScript, HTML5 & CSS3. I'm also good at developing IOS/Android applications using Flutter.
                       </p>
                       <p>
-                        I attended many challenges, Hackathons to brush up my skills. When I'm not coding, texting or
-                        pushing pixels, you'll find me gaming or working out.
-                        I love nature 💚 .
+                        When I'm not coding, texting or
+                        pushing pixels, you'll find me gaming or watching TV Shows.
+                        I love nature 💚.
                       </p>
                     </div>
                     <div class="tab-pane" id="education" role="tabpanel"> 
                       <br/>
-                      <p>Second Panel</p>
+                      <p>I have completed my undergraduation in anil neerukonda institute of technology and science (2017-2021)
+                        in the field of computer science.
+                        I am currently doing my masters at northumbria university in london in the field of MSc. Computing and Technology (2022 - ).
+                      </p>
                     </div>
                     <div class="tab-pane" id="experience" role="tabpanel">
                       <br/>
-                      <p>Third Panel</p>
+                      <p>
+                        <ul class="profiles">
+                          <li class="profile-lists">🔗 Front end mentor : <a target = "_blank" href = "https://www.frontendmentor.io/profile/preetamvarun" class="profile-link">View my front end mentor profile</a></li>
+                          <li class="profile-lists">🔗 Leetcode :  <a target = "_blank" href = "https://leetcode.com/Lawliet_/" class="profile-link">View my leetcode profile</a> </li>
+                          <li class="profile-lists">🔗 Css battles : <a target = "_blank" href = "https://cssbattle.dev/player/preetamvarun" class="profile-link">View my css battles profile</a></li>
+                        </ul>
+                      </p>
                     </div>
                   </div>
                   <!-- <h5>🎯 <a href="https://linktr.ee/KarunKarthik" target="_blank">Click to view best hand-written material for coding interviews.</a></h5> -->
@@ -884,7 +907,7 @@
         var tagCloud = TagCloud('.Sphere', Texts, {
 
             // Sphere radius in px
-            radius: 225,
+            radius: 185,
 
             // animation speed
             // slow, normal, fast
@@ -892,7 +915,7 @@
             initSpeed: 'normal',
 
             // Rolling direction [0 (top) , 90 (left), 135 (right-bottom)] 
-            direction: 147,
+            direction: 135,
 
             // interaction with mouse or not [Default true (decelerate to rolling init speed, and keep rolling with mouse).]
             keep: true
@@ -903,7 +926,7 @@
         // var color = '#333366 ';
         var color = '#fff';
         document.querySelector('.Sphere').style.color = color;
-        document.querySelector('.Sphere').style.fontSize = '1.1rem';
+        document.querySelector('.Sphere').style.fontSize = '1rem';
     </script>
 
   </body>
